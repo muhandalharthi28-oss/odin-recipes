@@ -1,15 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A small collection of comforting recipes, from cinnamon rolls to weeknight dinners.">
+  <title>Odin Recipes | Good food, made at home</title>
+  <link rel="stylesheet" href="./CSS/style.css">
 </head>
 <body>
-    <h1 ><center>Odin Recipes</center></h1>
-    <img src="./img/ar-world-casserole-day-2026-hero.webp" height="400px" width="400px" alt="hero-image"><br>
-    <a href="./recipes/Apple-Cider-Bath-Cinnamon-Rolls.html">Apple Cider Bath Cinnamon Rolls</a><br>
-    <a href="./recipes/Baked-Italian-Chicken-Rollatini.html">Baked Italian Chicken Rollatini</a><br>
-    <a href="./recipes/Mississippi-Sloppy-Joes.html">Mississippi Sloppy Joes</a><br>
+  <header class="site-header"><a class="brand" href="./index.html">Odin Recipes</a></header>
+  <main>
+    <section class="hero" aria-labelledby="page-title">
+      <div class="hero-copy">
+        <p class="eyebrow">A little inspiration for your table</p>
+        <h1 id="page-title">Good food, made at home.</h1>
+        <p>Find a new favorite in this collection of comforting, approachable recipes. Choose something sweet, cozy, or perfect for dinner tonight.</p>
+      </div>
+      <img class="hero-image" src="./img/ar-world-casserole-day-2026-hero.webp" alt="A freshly baked casserole ready to share">
+    </section>
+    <section aria-labelledby="recipes-title">
+      <p class="eyebrow">From our kitchen</p>
+      <h2 id="recipes-title">Explore the recipes</h2>
+      <div class="recipe-grid">
+        <article class="recipe-card"><a href="./recipes/Apple-Cider-Bath-Cinnamon-Rolls.html"><img src="./img/AppleCiderBathCinnamonRolls.webp" alt="Apple cider bath cinnamon rolls"><div class="card-copy"><h3>Apple Cider Bath Cinnamon Rolls</h3><p>Soft, spiced rolls finished with a cider glaze.</p></div></a></article>
+        <article class="recipe-card"><a href="./recipes/Baked-Italian-Chicken-Rollatini.html"><img src="./img/Chicken-Rollatini-Peyton-Beckwith-Beauty.webp" alt="Golden baked Italian chicken rollatini"><div class="card-copy"><h3>Baked Italian Chicken Rollatini</h3><p>Chicken rolled with savory fillings and baked until golden.</p></div></a></article>
+        <article class="recipe-card"><a href="./recipes/Mississippi-Sloppy-Joes.html"><img src="./img/Mississippi-Sloppy-Joes-Peyton-Bechwith-Beauty.webp" alt="Mississippi sloppy joe filling served on a bun"><div class="card-copy"><h3>Mississippi Sloppy Joes</h3><p>A tangy, saucy sandwich for an easy weeknight meal.</p></div></a></article>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">Made for home cooks, one recipe at a time.</footer>
 </body>
 </html>
